@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-secondary-container":"#785e3b","on-surface-variant":"#4e453b","primary-fixed-dim":"#e5c18f","primary":"#73572f","surface-container":"#f0eded","error":"#ba1a1a","on-background":"#1b1b1b","surface":"#fcf9f8","primary-container":"#8d6f45","on-tertiary-fixed-variant":"#484742","on-primary":"#ffffff","on-secondary":"#ffffff","on-primary-fixed":"#291800","inverse-surface":"#313030","secondary-fixed":"#ffddb4","on-primary-container":"#fffbff","tertiary-container":"#76746f","on-tertiary-fixed":"#1c1c18","surface-container-lowest":"#ffffff","tertiary-fixed":"#e6e2db","on-secondary-fixed":"#291800","inverse-primary":"#e5c18f","surface-container-high":"#eae7e7","on-primary-fixed-variant":"#5b421c","surface-bright":"#fcf9f8","tertiary":"#5e5c57","on-tertiary-container":"#fffbff","on-error":"#ffffff","outline-variant":"#d1c4b7","outline":"#807569","surface-container-highest":"#e5e2e1","background":"#fcf9f8","secondary-container":"#fedaad","secondary-fixed-dim":"#e3c196","primary-fixed":"#ffddb1","on-secondary-fixed-variant":"#5a4221","error-container":"#ffdad6","surface-container-low":"#f6f3f2","surface-dim":"#dcd9d9","tertiary-fixed-dim":"#c9c6bf","on-tertiary":"#ffffff","surface-variant":"#e5e2e1","on-error-container":"#93000a","inverse-on-surface":"#f3f0ef","secondary":"#745a37","on-surface":"#1b1b1b","surface-tint":"#755a31"},borderRadius:{DEFAULT:"0.125rem",lg:"0.25rem",xl:"0.5rem",full:"0.75rem"},spacing:{"gutter-sm":"1rem","space-xl":"3.5rem","space-sm":"0.75rem","space-lg":"2.25rem",margin:"4rem","space-xs":"0.375rem","space-md":"1.25rem",gutter:"2rem","margin-sm":"1.5rem"},fontFamily:{"headline-lg":["Playfair Display"],"numeric-data":["Inter"],"label-gold-lg":["Inter"],"headline-sm":["Playfair Display"],"body-lg":["Inter"],"body-md":["Inter"],"headline-md":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"display-hero":["Playfair Display"],"label-gold-sm":["Inter"],"display-hero-mobile":["Playfair Display"],"body-sm":["Inter"]},fontSize:{"headline-lg":["40px",{lineHeight:"48px",letterSpacing:"-0.015em",fontWeight:"400"}],"numeric-data":["16px",{lineHeight:"22px",letterSpacing:"-0.01em",fontWeight:"500"}],"label-gold-lg":["12px",{lineHeight:"16px",letterSpacing:"0.14em",fontWeight:"600"}],"headline-sm":["22px",{lineHeight:"30px",letterSpacing:"0em",fontWeight:"500"}],"body-lg":["18px",{lineHeight:"28px",letterSpacing:"-0.005em",fontWeight:"400"}],"body-md":["15px",{lineHeight:"24px",letterSpacing:"0em",fontWeight:"400"}],"headline-md":["28px",{lineHeight:"36px",letterSpacing:"-0.01em",fontWeight:"500"}],"headline-lg-mobile":["28px",{lineHeight:"36px",letterSpacing:"-0.01em",fontWeight:"400"}],"display-hero":["56px",{lineHeight:"64px",letterSpacing:"-0.02em",fontWeight:"400"}],"label-gold-sm":["10px",{lineHeight:"14px",letterSpacing:"0.16em",fontWeight:"600"}],"display-hero-mobile":["36px",{lineHeight:"44px",letterSpacing:"-0.01em",fontWeight:"400"}],"body-sm":["13px",{lineHeight:"20px",letterSpacing:"0.005em",fontWeight:"400"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 w-full z-50 bg-surface/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-20 max-w-7xl mx-auto px-margin-sm lg:px-margin flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="ALTRIS Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Vyt4OcQf-QMIs3IlfPlUq7Ot9BQEi1mfrkgnhgWuATmTdSYxGyWbudIHegyiSvZss0mf8djBIeGUzioRXz925EWXIvnUsm2GUkHM9ZfZPCSnX7vxpYx7oXCkovW245E3MA_D5OI6NYGTDNpIBo3w6Vnk8o597YfA6hOojtyuQ4-WyKvN03-ezXtG-OruaUc6QTWYh7bXybAlUXo-L2aiXyV5O65fVf_CxhztjM7sbR"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">ALTRIS</span><span class="font-label-gold-sm text-label-gold-sm text-primary uppercase tracking-widest mt-0.5">Trading FZCO · Dubai</span></div></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary font-medium"><a aria-current="page" class="uppercase tracking-wider transition-colors text-primary font-medium" data-path="home" href="#">Home</a><a class="font-body-sm text-body-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">About</a><a class="font-body-sm text-body-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="our-metals" href="#">Our Metals</a><a class="font-body-sm text-body-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="markets" href="#">Markets</a><a class="font-body-sm text-body-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="compliance" href="#">Compliance</a><a class="font-body-sm text-body-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center bg-primary text-on-primary font-label-gold-lg text-label-gold-lg uppercase tracking-widest px-space-md py-space-sm rounded-lg hover:bg-primary-container hover:text-on-primary-container transition-all shadow-sm" data-path="contact" href="#">Enquire</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- 1. Hero Section -->
+<section class="relative w-full bg-surface overflow-hidden pt-space-xl pb-space-xl lg:py-space-xl">
+<div class="max-w-7xl mx-auto px-margin-sm lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left Editorial Copy -->
+<div class="lg:col-span-7 flex flex-col items-start pr-0 lg:pr-space-lg z-10">
+<div class="flex items-center gap-space-xs mb-space-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary inline-block"></span>
+<span class="font-label-gold-lg text-label-gold-lg uppercase tracking-widest text-primary">Institutional Wholesale Bullion · DMCC Dubai</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-on-surface mb-space-md tracking-tight leading-tight">
+            Physical Precious Metals, Traded with Integrity.
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-space-lg leading-relaxed">
+            Dubai-based trading of gold, silver and platinum group metals for corporate and professional counterparties. Built upon rigorous chain of custody, liquidity depth, and execution certainty.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md w-full sm:w-auto">
+<a class="inline-flex items-center justify-center bg-primary text-on-primary font-label-gold-lg text-label-gold-lg uppercase tracking-widest px-space-lg py-space-sm rounded-lg hover:bg-primary-container transition-all shadow-sm" href="#overview">
+              Our Business
+            </a>
+<a class="inline-flex items-center justify-center bg-surface-container-lowest text-on-surface font-label-gold-lg text-label-gold-lg uppercase tracking-widest px-space-lg py-space-sm rounded-lg hover:bg-surface-container transition-all shadow-sm" href="#contact">
+              Contact Us
+            </a>
+</div>
+<div class="mt-space-xl pt-space-md w-full flex items-center justify-between text-on-surface-variant font-label-gold-sm text-label-gold-sm uppercase tracking-wider">
+<span>UAE Good Delivery</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span>Vault-to-Vault Settlement</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span>B2B Institutional Only</span>
+</div>
+</div>
+<!-- Right Architectural Visual Panel -->
+<div class="lg:col-span-5 relative mt-space-lg lg:mt-0">
+<div class="relative bg-surface-container-lowest p-space-sm rounded-xl shadow-md">
+<div class="relative h-[480px] w-full overflow-hidden rounded-lg bg-surface-container">
+<img class="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700" data-alt="Photorealistic daylight view of precision cast gold bullion bars resting on polished pristine white Carrara marble with sharp geometric edges, subtle metallic reflections in soft morning sunlight, architectural aesthetic, archival luxury editorial quality, neutral warm beige tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjc1uDenk3dKGGCw0ZafeJVK9T8nqEG5-oN8jLlVzKmkOSk22-ZD0m0eWsRYxFXuDUAlW_k21si_5Y5HY9zgixTuPu0IemLYMUbB021-Vk4zJTOt8ek4oPI6apl7KxKaVpCNfXkgS1hwuVTBL38gIFrWgKkrE8y-rH0h0NHHaWtjFE83DjAB_bmP2ZeyLy6z4HJELZOkrhbp_BijeeHCYqxV06e5y-PLudt7zCJ5k"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/40 via-transparent to-transparent"></div>
+<!-- Floating Specification Stamp -->
+<div class="absolute bottom-4 left-4 right-4 bg-surface-container-lowest/95 backdrop-blur-md p-space-sm rounded-lg shadow-sm flex items-center justify-between">
+<div>
+<span class="block font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-primary">Assay Verification</span>
+<span class="font-headline-sm text-[16px] text-on-surface leading-tight">Au 999.9 Fine Purity</span>
+</div>
+<div class="text-right">
+<span class="block font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-on-surface-variant">Origin Standard</span>
+<span class="font-numeric-data text-body-sm text-on-surface">Dubai Multi Commodities Centre</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Decorative Planar Accent Box -->
+<div class="absolute -bottom-6 -right-6 w-32 h-32 bg-surface-container -z-10 rounded-xl hidden sm:block"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. Thin Geographic Corridor Presence Strip -->
+<section class="w-full bg-surface-container-low py-space-md">
+<div class="max-w-7xl mx-auto px-margin-sm lg:px-margin">
+<div class="flex flex-col md:flex-row items-center justify-between gap-space-sm text-center md:text-left">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">public</span>
+<span class="font-label-gold-lg text-label-gold-lg uppercase tracking-widest text-on-surface-variant">Global Flow Footprint</span>
+</div>
+<div class="flex items-center justify-center gap-space-lg font-headline-sm text-headline-sm text-on-surface tracking-wide">
+<span>DUBAI</span>
+<span class="text-primary text-[14px]">•</span>
+<span>HONG KONG</span>
+<span class="text-primary text-[14px]">•</span>
+<span>INDIA</span>
+</div>
+<div class="font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-on-surface-variant">
+          Established Physical Supply Routes
+        </div>
+</div>
+</div>
+</section>
+<!-- 3. Who We Are Section -->
+<section class="w-full bg-surface py-space-xl" id="overview">
+<div class="max-w-7xl mx-auto px-margin-sm lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left: Narrative -->
+<div class="lg:col-span-6 space-y-space-md">
+<div class="space-y-space-xs">
+<span class="font-label-gold-lg text-label-gold-lg uppercase tracking-widest text-primary">Who We Are</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface leading-tight">
+              B2B Precious Metals Trading from Dubai
+            </h2>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface leading-relaxed">
+            ALTRIS TRADING FZCO operates at the heart of the global bullion trade. Based in Dubai, we facilitate frictionless wholesale procurement, physical movement, and delivery of precious metals for accredited institutional counterparties worldwide.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Operating strictly within a B2B framework, we serve bullion houses, state-certified refineries, jewellery industrial manufacturers, and financial institutions. Our model balances institutional governance with personalized trading desks to ensure execution certainty across volatile spot and forward markets.
+          </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md pt-space-sm">
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm">
+<span class="font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-primary block mb-1">Liquidity Depth</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Consistent access to major sovereign refining capacity and institutional physical supplies.</p>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm">
+<span class="font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-primary block mb-1">Chain of Custody</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">End-to-end transparent vault clearing adhering to OECD due diligence guidelines.</p>
+</div>
+</div>
+</div>
+<!-- Right: Dubai Skyline Architectural Daylight View -->
+<div class="lg:col-span-6 relative">
+<div class="bg-surface-container-lowest p-space-sm rounded-xl shadow-md">
+<div class="relative h-[440px] w-full overflow-hidden rounded-lg bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Pristine architectural daytime photograph of the Dubai Multi Commodities Centre DMCC district and Uptown Dubai skyline under pure clear blue daylight, sharp modern glass facades, serene perspective, ultra high resolution, warm beige stone framing." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiTgBGJTr9qWa_8qkA0eVaGH-6PgFN5ru_ASWsJHLImUiAjMFzTkFRTIl7KM1uKRwFN859kKK9LNl0aK1IBc_jIePMGs_rvrGMI1NNc1ArgPozfdLLnlatCDwT6ysHeZrFgUdcZeFgAebI0jun2fDkGql8zAJmCxvYodyU7LdWQ3npkl0FO3Y9w8sYm75OqwU70o9bnsjR31xAB89bUkNZzDGlwEEUYexmI0XhZJw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/50 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 text-on-primary">
+<p class="font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-primary-fixed">Jurisdiction</p>
+<p class="font-headline-sm text-headline-sm">DMCC Free Zone, Dubai, UAE</p>
+<p class="font-body-sm text-body-sm text-surface-container-high opacity-90">Gateway for East-West Precious Metal Clearing</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Our Metals Overview -->
+<section class="w-full bg-surface-container-low py-space-xl">
+<div class="max-w-7xl mx-auto px-margin-sm lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-sm">
+<div>
+<span class="font-label-gold-lg text-label-gold-lg uppercase tracking-widest text-primary block mb-space-xs">Allocation Capabilities</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Core Trading Portfolio</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Standardized delivery specifications for primary physical allocations across accredited refiners and bullion depositories.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Card 1: Gold -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-primary">Au · Element 79</span>
+<span class="text-xs px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-numeric-data">995 / 999.9</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">Physical Gold Bullion</h3>
+<p class="font-body-sm text-body-sm text-primary mb-space-md font-medium">Physical 995 &amp; 9999 Bullion Bars</p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-lg">
+              Institutional wholesale bars for sovereign mints, commercial banks, and licensed market makers. Delivered in standard kilobars and large London Good Delivery bar formats with assay certificates.
+            </p>
+</div>
+<div class="pt-space-md bg-surface-container-low p-space-sm rounded-lg flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-on-surface font-medium">Kilobars · Large Bars</span>
+<span class="material-symbols-outlined text-primary text-[20px]">arrow_forward</span>
+</div>
+</div>
+<!-- Card 2: Silver -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-primary">Ag · Element 47</span>
+<span class="text-xs px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-numeric-data">999.0 Fine</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">Institutional Silver</h3>
+<p class="font-body-sm text-body-sm text-primary mb-space-md font-medium">Industrial &amp; Investment Grade Silver</p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-lg">
+              High-volume commercial grade deliveries tailored for industrial manufacturers, photovoltaic producers, and investment bullion distributors. 1,000 oz standard bars and bulk cast ingots.
+            </p>
+</div>
+<div class="pt-space-md bg-surface-container-low p-space-sm rounded-lg flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-on-surface font-medium">1,000 oz Large Ingot</span>
+<span class="material-symbols-outlined text-primary text-[20px]">arrow_forward</span>
+</div>
+</div>
+<!-- Card 3: PGMs -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-primary">Pt / Pd · Group 10</span>
+<span class="text-xs px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-numeric-data">999.5 Minimum</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">Platinum Group Metals</h3>
+<p class="font-body-sm text-body-sm text-primary mb-space-md font-medium">Platinum &amp; Palladium</p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-lg">
+              Specialized physical supply for the chemical, autocatalytic, hydrogen economy, and haute horlogerie industries. Sourced via accredited global refining partners with precise assay integrity.
+            </p>
+</div>
+<div class="pt-space-md bg-surface-container-low p-space-sm rounded-lg flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-on-surface font-medium">Plates · Sponge · Bars</span>
+<span class="material-symbols-outlined text-primary text-[20px]">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Founded on Three Decades of Experience (The Single Allowed Figure) -->
+<section class="w-full bg-surface py-space-xl">
+<div class="max-w-7xl mx-auto px-margin-sm lg:px-margin">
+<div class="bg-surface-container rounded-2xl p-space-lg lg:p-space-xl shadow-sm relative overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Monumental 30+ Metric -->
+<div class="lg:col-span-5 flex flex-col items-start justify-center lg:pr-space-md">
+<span class="font-label-gold-lg text-label-gold-lg uppercase tracking-widest text-primary mb-space-xs">Market Heritage</span>
+<div class="flex items-baseline">
+<span class="font-display-hero text-[88px] lg:text-[112px] leading-none text-primary font-normal tracking-tight">30+</span>
+</div>
+<p class="font-headline-md text-headline-md text-on-surface mt-space-xs">
+              Years of Founder Experience
+            </p>
+</div>
+<!-- Narrative Core -->
+<div class="lg:col-span-7 space-y-space-md">
+<p class="font-body-lg text-body-lg text-on-surface leading-relaxed">
+              With <strong class="font-semibold text-primary">30+ years</strong> of founder experience in the precious metals industry across India and international markets, ALTRIS TRADING brings deep domain mastery to modern Dubai commerce.
+            </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Decades of active market presence have forged enduring relationships across sovereign mints, international bullion desks, and global logistics providers. This institutional depth ensures resilient pricing, immediate physical trade resolution, and an instinctive understanding of cross-border bullion movements.
+            </p>
+<div class="pt-space-sm grid grid-cols-1 sm:grid-cols-3 gap-space-sm">
+<div class="p-space-sm bg-surface-container-lowest rounded-lg">
+<span class="block font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-primary mb-1">Direct Channels</span>
+<span class="font-body-sm text-body-sm text-on-surface">Unbroken refinery access without multi-tier intermediaries</span>
+</div>
+<div class="p-space-sm bg-surface-container-lowest rounded-lg">
+<span class="block font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-primary mb-1">Execution Speed</span>
+<span class="font-body-sm text-body-sm text-on-surface">Timely spot clearing in volatile geopolitical conditions</span>
+</div>
+<div class="p-space-sm bg-surface-container-lowest rounded-lg">
+<span class="block font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-primary mb-1">Cross-Border Fluency</span>
+<span class="font-body-sm text-body-sm text-on-surface">Specialized trade lanes across Middle East &amp; South Asia</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. How We Work -->
+<section class="w-full bg-surface-container-low py-space-xl">
+<div class="max-w-7xl mx-auto px-margin-sm lg:px-margin">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-gold-lg text-label-gold-lg uppercase tracking-widest text-primary block mb-space-xs">Operating Architecture</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-space-sm">How We Work</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          A disciplined, linear methodology designed to safeguard capital, ensure absolute assay verification, and honor physical deliveries.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Step 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md flex flex-col justify-between shadow-sm relative">
+<div>
+<div class="font-headline-lg text-primary mb-space-sm opacity-80">01</div>
+<h3 class="font-headline-sm text-[18px] text-on-surface mb-space-xs leading-snug">Counterparty Due Diligence</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Rigorous KYC, AML screening, and institutional background reviews prior to transaction clearance, meeting UAE regulatory thresholds.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-primary">
+            Verification Protocol
+          </div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md flex flex-col justify-between shadow-sm relative">
+<div>
+<div class="font-headline-lg text-primary mb-space-sm opacity-80">02</div>
+<h3 class="font-headline-sm text-[18px] text-on-surface mb-space-xs leading-snug">Sourcing from Refineries</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Direct physical metal sourcing strictly through accredited primary refiners and international bullion banks with full assay trails.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-primary">
+            Accredited Origin
+          </div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md flex flex-col justify-between shadow-sm relative">
+<div>
+<div class="font-headline-lg text-primary mb-space-sm opacity-80">03</div>
+<h3 class="font-headline-sm text-[18px] text-on-surface mb-space-xs leading-snug">Documentation &amp; Settlement</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Transparent trade confirmations, swift bilateral documentation, and secure vault-to-vault clearing across accredited depositories.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-primary">
+            Secure Clearing
+          </div>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md flex flex-col justify-between shadow-sm relative">
+<div>
+<div class="font-headline-lg text-primary mb-space-sm opacity-80">04</div>
+<h3 class="font-headline-sm text-[18px] text-on-surface mb-space-xs leading-snug">Supply to Corporate Buyers</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Fulfillment and insured logistics to qualified corporate counterparties, manufacturers, and authorized institutional treasuries.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-primary">
+            Fulfillment Assurance
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. Compliance Teaser Band & Partner with Altris CTA -->
+<section class="w-full bg-surface py-space-xl">
+<div class="max-w-7xl mx-auto px-margin-sm lg:px-margin space-y-space-lg">
+<!-- Compliance Trust Card -->
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-sm">
+<div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md">
+<div class="space-y-space-xs max-w-2xl">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">verified_user</span>
+<span class="font-label-gold-lg text-label-gold-lg uppercase tracking-widest text-primary">Strict Regulatory Compliance</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Upholding UAE &amp; Global Responsible Sourcing</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              ALTRIS TRADING operates in strict conformity with UAE Cabinet Resolution No. 29 of 2021, DMCC Responsible Sourcing Guidelines, and OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas.
+            </p>
+</div>
+<div class="shrink-0">
+<span class="inline-flex items-center gap-space-xs bg-surface-container-lowest px-space-md py-space-sm rounded-lg text-on-surface font-label-gold-sm text-label-gold-sm uppercase tracking-wider shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+              OECD Aligned Sourcing
+            </span>
+</div>
+</div>
+</div>
+<!-- Partner With Altris Final Action Banner -->
+<div class="bg-surface-container-high rounded-2xl p-space-lg lg:p-space-xl text-center flex flex-col items-center relative overflow-hidden shadow-sm" id="contact">
+<span class="font-label-gold-lg text-label-gold-lg uppercase tracking-widest text-primary mb-space-xs">Institutional Engagement</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface max-w-xl mb-space-sm">
+          Partner with ALTRIS TRADING
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mb-space-lg leading-relaxed">
+          We invite institutional counterparties, bullion banks, refiners, and industrial clients to initiate counterparty onboarding with our Dubai trading desk.
+        </p>
+<div class="flex flex-col sm:flex-row items-center gap-space-md">
+<a class="inline-flex items-center justify-center bg-primary text-on-primary font-label-gold-lg text-label-gold-lg uppercase tracking-widest px-space-xl py-space-sm rounded-lg hover:bg-primary-container transition-all shadow-sm" href="mailto:desk@altris-trading.ae">
+            Initiate Onboarding
+          </a>
+<a class="inline-flex items-center justify-center bg-surface-container-lowest text-on-surface font-label-gold-lg text-label-gold-lg uppercase tracking-widest px-space-lg py-space-sm rounded-lg hover:bg-surface-container transition-all shadow-sm" href="mailto:settlements@altris-trading.ae">
+            Desk Enquiries
+          </a>
+</div>
+<p class="font-body-sm text-[12px] text-on-surface-variant/70 mt-space-lg uppercase tracking-widest">
+          Strictly B2B Counterparties · KYC Verification Required Prior to Quote Allocation
+        </p>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-high"><div class="max-w-7xl mx-auto px-margin-sm lg:px-margin pt-space-xl pb-space-lg"><div class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-space-xl"><div class="md:col-span-5 space-y-space-md"><div class="flex items-center gap-space-sm"><img alt="ALTRIS Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Vyt4OcQf-QMIs3IlfPlUq7Ot9BQEi1mfrkgnhgWuATmTdSYxGyWbudIHegyiSvZss0mf8djBIeGUzioRXz925EWXIvnUsm2GUkHM9ZfZPCSnX7vxpYx7oXCkovW245E3MA_D5OI6NYGTDNpIBo3w6Vnk8o597YfA6hOojtyuQ4-WyKvN03-ezXtG-OruaUc6QTWYh7bXybAlUXo-L2aiXyV5O65fVf_CxhztjM7sbR"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">ALTRIS TRADING FZCO</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-md leading-relaxed">Institutional physical precious metals trading house incorporated in Dubai, United Arab Emirates. Established May 2026. Specializing in primary supply, vault-to-vault settlement, and global liquidity for gold, silver, and platinum group metals.</p><div class="flex items-center gap-space-sm pt-space-xs"><span class="w-2 h-2 rounded-full bg-primary inline-block"></span><span class="font-label-gold-sm text-label-gold-sm uppercase tracking-widest text-primary">DMCC Registered Free Zone Entity · Dubai, UAE</span></div></div><div class="md:col-span-3 md:col-start-7 space-y-space-sm"><div class="font-label-gold-lg text-label-gold-lg uppercase tracking-widest text-primary pb-space-xs">Navigation</div><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Home</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">About the Firm</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Physical Metals (Au, Ag, PGMs)</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Markets &amp; Settlement</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Due Diligence &amp; Compliance</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Institutional Enquiries</li></ul></div><div class="md:col-span-3 space-y-space-sm"><div class="font-label-gold-lg text-label-gold-lg uppercase tracking-widest text-primary pb-space-xs">Operations &amp; Desk</div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Dubai Multi Commodities Centre (DMCC)<br/>Uptown Tower, Level 24<br/>Dubai, United Arab Emirates</p><div class="pt-space-xs space-y-1"><p class="font-body-sm text-body-sm text-on-surface-variant">desk@altris-trading.ae</p><p class="font-body-sm text-body-sm text-on-surface-variant">settlements@altris-trading.ae</p></div></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-md"><p class="font-body-sm text-body-sm text-on-surface-variant text-center md:text-left">© 2026 ALTRIS TRADING FZCO. All rights reserved. Strictly B2B institutional bullion counterparty.</p><div class="font-label-gold-sm text-label-gold-sm uppercase tracking-wider text-on-surface-variant text-center md:text-right">OECD Due Diligence Compliant · UAE Good Delivery Sourced</div></div><div class="pt-space-md mt-space-md"><p class="font-body-sm text-[11px] leading-relaxed text-on-surface-variant/80 text-justify">Regulatory Notice: ALTRIS TRADING FZCO conducts wholesale commercial physical trading of precious metals strictly with qualified institutional counterparties, licensed refiners, and accredited bullion banks. We do not service retail clients, offer depository wallets, or provide financial investment advice. All trade activities comply with UAE Cabinet Resolution No. 29 of 2021 regarding AML/CFT oversight and the OECD Due Diligence Guidance for Responsible Supply Chains.</p></div></div></footer></body></html>
