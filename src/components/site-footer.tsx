@@ -51,8 +51,11 @@ export function SiteFooter() {
             </p>
           </div>
         </div>
-        <div className="mt-12 flex flex-col gap-3 border-t border-border pt-6 text-sm text-muted md:flex-row md:items-center md:justify-between">
-          <p>© 2026 {site.legalName}. All rights reserved. Strictly B2B institutional bullion counterparty.</p>
+        <div className="mt-12 flex flex-col gap-3 border-t border-border pt-6 text-sm text-muted md:flex-row md:items-end md:justify-between">
+          <div>
+            <p>© 2026 {site.legalName}. All rights reserved. Strictly B2B institutional bullion counterparty.</p>
+            <p className="mt-2 text-xs">Designed and developed by Smriti Mohapatra</p>
+          </div>
           <p className="text-[11px] font-semibold uppercase tracking-[0.14em]">
             Responsible sourcing · UAE wholesale bullion
           </p>
